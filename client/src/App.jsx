@@ -65,6 +65,10 @@ export default function App() {
         <h2>Upload Document</h2>
         <DropZone onFileSelected={handleFile} />
 
+        <p style={{marginTop: "10px", fontSize: "0.9rem", color: "#666", fontStyle: "italic",}}>
+          ⓘ Please wait a few seconds after uploading — the extracted text and buttons will appear once processing is complete.
+        </p>
+
         {text && (
           <button onClick={() => setShowText(!showText)}>
             {showText ? "Hide Extracted Text" : "Show Extracted Text"}
