@@ -1,21 +1,21 @@
-# 📑 AI-Powered Document Summarizer
+#  AI-Powered Document Summarizer
 
 An end-to-end web application that allows users to **upload PDFs or images**, extract text using **Tesseract OCR** / **pdf-parse**, and generate **summaries (Short, Medium, Long)** using **Groq API**. Summaries can also be **downloaded as Word (.docx) files**.
 
 ---
 
-## 🚀 Features
-- 📂 **File Upload** – Upload PDF or image files (JPG, PNG).
-- 🔍 **Text Extraction** – 
+## Features
+-  **File Upload** – Upload PDF or image files (JPG, PNG).
+-  **Text Extraction** – 
   - PDFs → `pdf-parse`
   - Images → `tesseract.js`
-- 🤖 **Summarization** – Uses **Groq API** for high-quality text summarization.
-- 📜 **Summary Options** – Choose between:
+-  **Summarization** – Uses **Groq API** for high-quality text summarization.
+-  **Summary Options** – Choose between:
   - Short (~100 words)  
   - Medium (~200 words)  
   - Long (~350 words)
-- 💾 **Export** – Download the summary as a `.docx` file.
-- 🎨 **Modern UI** – Built with **React**, responsive and clean design.
+-  **Export** – Download the summary as a `.docx` file.
+-  **Modern UI** – Built with **React**, responsive and clean design.
 
 ---
 
@@ -33,7 +33,7 @@ An end-to-end web application that allows users to **upload PDFs or images**, ex
 
 ---
 
-## ⚙️ Installation
+##  Installation
 
 ### 1. Clone the repository
 ```bash
@@ -66,12 +66,12 @@ VITE_API_URL=your_url_of_backend
 
 ``` bash
 cd backend
-npm start
+node index.js
 ```
 #### Start Frontend
 ```bash
 cd ../frontend
-npm start
+npm run dev
 ```
 
 
